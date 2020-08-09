@@ -1,0 +1,32 @@
+{
+    "name": "dark-plus-full-black",
+    "displayName": "Dark+ (Full black)",
+    "description": "Full black version of vscode's default dark+",
+    "preview": true,
+    "publisher": "dhruvdh",
+    "repository": {
+        "url": "https://github.com/DhruvDh/dark-plus-full-black"
+    },
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^1.71.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark+ (Full black)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-plus-full-black.json"
+            }
+        ]
+    }
+}
